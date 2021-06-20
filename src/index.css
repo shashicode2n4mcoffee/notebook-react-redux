@@ -1,13 +1,58 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #143550;
+  color: #cf957f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  background-color: #c1ec04;
+}
+
+.importantNotes {
+  color: #797728;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.importantNotes .btn:hover {
+  background: #797728;
+  color: #fff;
+  border: 1px solid #797728;
+  outline: none;
+}
+
+.card {
+  background: transparent !important;
+  box-shadow: 5px 5px 8px #1e1d1e, -5px -5px 8px #484748;
+  width: 15rem;
+  margin: 1rem;
+}
+
+.btn {
+  background: transparent;
+  color: inherit;
+  border: 1px solid;
+  outline: none;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: #aa6951;
+  color: #fff;
+  border: 1px solid #aa6951;
+  outline: none;
+}
+
+.allnotes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top {
+  text-align: center;
+  margin: 2rem;
 }
